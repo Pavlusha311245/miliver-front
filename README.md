@@ -1,38 +1,38 @@
-# sv
+# Miliver
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## About Miliver
 
-## Creating a project
+This project was created as a way to help me and as part of my portfolio. It may not be updated for a long time at any
+given time.
 
-If you're seeing this, you've probably already done this step. Congrats!
+> RestAPI implementation includes HATEOAS principles that make it easy to navigate through the API and make really
+> restful.
 
-```sh
-# create a new project in the current directory
-npx sv create
+## Tech stack
 
-# create a new project in my-app
-npx sv create my-app
-```
+- Bun
+- Typescript
+- SvelteKit
 
-## Developing
+## API documentation
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+The API documentation can be found on path `/docs/api`
+If you need JSON you can use the `/docs/api.json` endpoint.
 
-```sh
-npm run dev
+## Status endpoint
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+The status endpoint can be found on path `/up`
 
-## Building
+## Supported versions
 
-To create a production version of your app:
+| Version | Status | Description     |
+|---------|--------|-----------------|
+| 0.1.0   | Active | Initial release |
 
-```sh
-npm run build
-```
+## Changelog
 
-You can preview the production build with `npm run preview`.
+See [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
